@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/lxmint/Documents/Udacity Projects/Operationalize-a-Machine-Learning-Microservice-API-master'
+# Create python virtualenv & source it
+# source ~/.devops/bin/activate
+python3 -m venv ~/.devops
+make: Leaving directory '/home/lxmint/Documents/Udacity Projects/Operationalize-a-Machine-Learning-Microservice-API-master'
+ 
