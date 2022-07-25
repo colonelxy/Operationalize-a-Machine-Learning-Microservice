@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 25 07:07:13 2022
+# Make data base, printed on Mon Jul 25 07:44:34 2022
 
 # Variables
 
@@ -37,7 +37,7 @@ GDMSESSION = cinnamon
 # default
 MAKE_VERSION := 4.2.1
 # makefile
-CURDIR := /home/lxmint/Documents/Udacity Projects/Operationalize-a-Machine-Learning-Microservice-API-master
+CURDIR := /home/lxmint/Documents/Udacity Projects/project4
 # makefile
 SHELL = /bin/sh
 # environment
@@ -105,7 +105,7 @@ GIO_LAUNCHED_DESKTOP_FILE_PID = 4467
 # environment
 DISPLAY = :0
 # environment
-PWD = /home/lxmint/Documents/Udacity Projects/Operationalize-a-Machine-Learning-Microservice-API-master
+PWD = /home/lxmint/Documents/Udacity Projects/project4
 # environment
 QT_QPA_PLATFORMTHEME = qt5ct
 # default
@@ -235,7 +235,7 @@ VSCODE_PID = 4467
 
 # Directories
 
-# . (device 2055, inode 17698887): 15 files, no impossibilities.
+# . (device 2055, inode 15347231): 15 files, no impossibilities.
 
 # 15 files, no impossibilities in 1 directories.
 
@@ -272,7 +272,7 @@ all: install lint test
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2019-12-14 19:07:48
+#  Last modified 2022-07-25 07:36:09.809848285
 #  File has been updated.
 #  Successfully updated.
 
@@ -280,12 +280,12 @@ test:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 #  recipe to execute (from 'Makefile', line 19):
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
 
- 
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
@@ -341,12 +341,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 252 B / avg = 10 B
-# current buf: size = 8162 B / used = 252 B / count = 24 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 247 B / avg = 10 B
+# current buf: size = 8162 B / used = 247 B / count = 24 / avg = 10 B
 
 # strcache performance: lookups = 38 / hit rate = 36%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/38=3%
-# Finished Make data base on Mon Jul 25 07:07:13 2022
+# Finished Make data base on Mon Jul 25 07:44:34 2022
 
  
