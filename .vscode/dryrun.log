@@ -3,5 +3,6 @@ make: Entering directory '/home/lxmint/Documents/Udacity Projects/project4'
 # Create python virtualenv & source it
 # source ~/.devops/bin/activate
 python3 -m venv ~/.devops
+source ~/.devops/bin/activate
 make: Leaving directory '/home/lxmint/Documents/Udacity Projects/project4'
  

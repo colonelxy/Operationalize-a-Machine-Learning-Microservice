@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 25 07:44:34 2022
+# Make data base, printed on Thu Jul 28 07:51:54 2022
 
 # Variables
 
@@ -79,7 +79,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/devCloud:@/tmp/.ICE-unix/2077,unix/devCloud:/tmp/.ICE-unix/2077
+SESSION_MANAGER = local/devCloud:@/tmp/.ICE-unix/2266,unix/devCloud:/tmp/.ICE-unix/2266
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -99,7 +99,7 @@ XDG_SESSION_DESKTOP = cinnamon
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4467
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3895
 # automatic
 %F = $(notdir $%)
 # environment
@@ -113,8 +113,9 @@ QT_QPA_PLATFORMTHEME = qt5ct
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 2148
+SSH_AGENT_PID = 2337
 # environment
+ 
 ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
 # environment
 GTK_MODULES = gail:atk-bridge
@@ -225,7 +226,7 @@ LC_ADDRESS = om_KE.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 4467
+VSCODE_PID = 3895
 # variable set hash-table stats:
 # Load=108/1024=11%, Rehash=0, Collisions=10/136=7%
 
@@ -235,9 +236,9 @@ VSCODE_PID = 4467
 
 # Directories
 
-# . (device 2055, inode 15347231): 15 files, no impossibilities.
+# . (device 2055, inode 15347231): 18 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -253,12 +254,14 @@ setup:
 	# Create python virtualenv & source it
 	# source ~/.devops/bin/activate
 	python3 -m venv ~/.devops
+	source ~/.devops/bin/activate
 
 all: install lint test
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
+ 
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/3=0%
@@ -272,7 +275,7 @@ all: install lint test
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-25 07:36:09.809848285
+#  Last modified 2022-07-27 21:40:57.396031392
 #  File has been updated.
 #  Successfully updated.
 
@@ -280,8 +283,7 @@ test:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
-#  recipe to execute (from 'Makefile', line 19):
+#  recipe to execute (from 'Makefile', line 20):
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
@@ -296,7 +298,7 @@ lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 24):
+#  recipe to execute (from 'Makefile', line 25):
 	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
 	# This is linter for Dockerfiles
 	hadolint Dockerfile
@@ -328,10 +330,10 @@ install:
 # ? := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/11=9%
-#  recipe to execute (from 'Makefile', line 14):
+#  recipe to execute (from 'Makefile', line 15):
 	# This should be run from inside a virtualenv
 	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+	pip install -r requirements.txt
 
 # files hash-table stats:
 # Load=8/1024=1%, Rehash=0, Collisions=0/23=0%
@@ -341,12 +343,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 247 B / avg = 10 B
-# current buf: size = 8162 B / used = 247 B / count = 24 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 294 B / avg = 10 B
+# current buf: size = 8162 B / used = 294 B / count = 27 / avg = 10 B
 
-# strcache performance: lookups = 38 / hit rate = 36%
+# strcache performance: lookups = 41 / hit rate = 34%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=1/38=3%
-# Finished Make data base on Mon Jul 25 07:44:34 2022
+# Load=27/8192=0%, Rehash=0, Collisions=1/41=2%
+# Finished Make data base on Thu Jul 28 07:51:54 2022
 
  
