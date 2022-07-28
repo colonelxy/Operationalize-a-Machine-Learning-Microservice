@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 28 07:51:54 2022
+# Make data base, printed on Thu Jul 28 12:12:43 2022
 
 # Variables
 
@@ -115,7 +115,6 @@ XDG_SEAT = seat0
 # environment
 SSH_AGENT_PID = 2337
 # environment
- 
 ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
 # environment
 GTK_MODULES = gail:atk-bridge
@@ -261,7 +260,6 @@ all: install lint test
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
- 
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/3=0%
@@ -280,6 +278,7 @@ Makefile:
 #  Successfully updated.
 
 test:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -349,6 +348,6 @@ install:
 # strcache performance: lookups = 41 / hit rate = 34%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=1/41=2%
-# Finished Make data base on Thu Jul 28 07:51:54 2022
+# Finished Make data base on Thu Jul 28 12:12:43 2022
 
  
