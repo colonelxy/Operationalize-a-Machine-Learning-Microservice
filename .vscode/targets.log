@@ -5,8 +5,9 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Thu Jul 28 12:12:43 2022
+# Make data base, printed on Sat Jul 30 06:37:56 2022
 
 # Variables
 
@@ -79,7 +80,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/devCloud:@/tmp/.ICE-unix/2266,unix/devCloud:/tmp/.ICE-unix/2266
+SESSION_MANAGER = local/devCloud:@/tmp/.ICE-unix/2199,unix/devCloud:/tmp/.ICE-unix/2199
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -99,7 +100,7 @@ XDG_SESSION_DESKTOP = cinnamon
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3895
+GIO_LAUNCHED_DESKTOP_FILE_PID = 9870
 # automatic
 %F = $(notdir $%)
 # environment
@@ -113,7 +114,7 @@ QT_QPA_PLATFORMTHEME = qt5ct
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 2337
+SSH_AGENT_PID = 2270
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
 # environment
@@ -225,7 +226,7 @@ LC_ADDRESS = om_KE.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 3895
+VSCODE_PID = 9870
 # variable set hash-table stats:
 # Load=108/1024=11%, Rehash=0, Collisions=10/136=7%
 
@@ -278,7 +279,6 @@ Makefile:
 #  Successfully updated.
 
 test:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -301,6 +301,7 @@ lint:
 	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
 	# This is linter for Dockerfiles
 	hadolint Dockerfile
+ 
 	# This is a linter for Python source code linter: https://www.pylint.org/
 	# This should be run from inside a virtualenv
 	pylint --disable=R,C,W1203,W1202 app.py
@@ -348,6 +349,6 @@ install:
 # strcache performance: lookups = 41 / hit rate = 34%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=1/41=2%
-# Finished Make data base on Thu Jul 28 12:12:43 2022
+# Finished Make data base on Sat Jul 30 06:37:56 2022
 
  

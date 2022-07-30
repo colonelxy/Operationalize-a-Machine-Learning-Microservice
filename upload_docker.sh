@@ -5,12 +5,12 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath="sdre/microproject:v1.0.0"
+dockerpath="colonelxy/udacity04:new-image"
 
 # Step 2:  
 # Authenticate & tag
 docker login
-docker tag microproject ${dockerpath}
+docker tag new-image ${dockerpath}
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:

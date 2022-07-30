@@ -1,5 +1,4 @@
-Accompanying YouTube video:  
-[![YouTube Video](https://img.youtube.com/vi/PATlqs14eWc/0.jpg)](https://www.youtube.com/watch?v=PATlqs14eWc)
+
 
 ### Steps
 - Setup a t3.small Ubuntu 18.04 instance with 20GB space
